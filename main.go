@@ -20,9 +20,14 @@ func main() { /*
 	//	fmt.Println(findUnsortedSubarray(nums))
 	//	fmt.Println(canPlaceFlowers(nums, 1))
 	//	nums1 := []int{1, 4}
-	nums2 := []int{1, 1, 3, 3, -2, -1, -4}
+	//	nums2 := []int{1, 1, 3, 3, -2, -1, -4}
 	//	nums2 = []int{0, 0, 0}
 	//	merge(nums1, 2, nums2, 2)
-	fmt.Println(maxProduct(nums2))
+	nums := [][]int{
+		{1, 2, 3, 4, 5},
+		{1, 2, 3, 4, 5},
+		{1, 2, 3, 4, 5},
+	}
+	fmt.Println(spiralOrder(nums))
 
 }
